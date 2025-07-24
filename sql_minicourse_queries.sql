@@ -275,7 +275,7 @@ FROM clientes c
     RIGHT JOIN pedidos p ON c.id = p.id_cliente;
 
 
--- FUNCTIONS AND FILTERS
+-- AGREGATION FUNCTIONS AND FILTERS
 -- GROUP BY 
 SELECT cidade, COUNT(*) AS numero_clientes
 FROM clientes
